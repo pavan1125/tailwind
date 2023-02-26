@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Vite App</title>
+</head>
+
+<body>
+    <div class=" bg-green-200 grid grid-cols-1 mx-2 md:grid-cols-2 md:grid-rows-3 md:row-start-1 md:row-end-2">
+        <div class="mx-auto md:col-start-1 md:col-end-1 ">
+            <header class="text-3xl mx-16 font-bold capitalize">contact us</header>
+            <div>
+                <input type="text" class="border w-96 md:w-80 px-8 font-bold  my-3 py-3 border-black" placeholder="First Name">
+            </div>
+            <div>
+                <input type="text" class="border w-96  md:w-80 px-8 font-bold  my-3 py-3 border-black" placeholder="Last Name">
+            </div>
+            <div>
+                <input type="text" class="border w-96 md:w-80 px-8 font-bold  my-3 py-3 border-black" placeholder="Email">
+            </div>
+        </div>
+        
+        <div class="mx-auto md:my-16 md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-4">
+            <header class="text-lg font-bold capitalize">
+                upload file
+            </header>
+            <div class="mx-auto flex flex-col border border-dashed border-black w-96 h-72">
+            <p class="mx-auto my-5">
+                <svg class="w-15 h-10 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                </svg>
+
+            </p>
+            <p class="mx-auto my-5 font-bold capitalize ">
+                drop your files here
+            </p>
+            <p class="mx-auto my-5">or</p>
+            <button class="border border-black capitalize px-2 my-5 mx-16">browse file</button>
+        </div>
+    </div>
+        <div class="mx-auto md:my-auto md:col-start-1 md:col-end-2 md:row-start-2 md:row-end-3 ">
+            <header class="text-lg font-bold capitalize">comments</header>
+            <textarea class="border   border-black "  name="comments" id="" cols="53" rows="5">
+                
+            </textarea>
+        </div>
+        <div class="mx-auto md:mx-5 md:my-0">
+            <button type="button" class="border  px-5 border-black uppercase">submit</button>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
